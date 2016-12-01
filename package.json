@@ -1,0 +1,30 @@
+{
+  "name": "tetris-on-a-plane",
+  "version": "0.0.1",
+  "description": "HTML/JS/CSS Tetris. Making it more complicated as a learning tool.",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack --progress --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eimaj/tetris-on-a-plane.git"
+  },
+  "author": "@eimaj via @jstimpfle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eimaj/tetris-on-a-plane/issues"
+  },
+  "homepage": "https://github.com/eimaj/tetris-on-a-plane#readme",
+  "dependencies": {
+    "react": "^15.4.1",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015-native-modules": "^6.9.4",
+    "webpack": "^2.1.0-beta.27"
+  }
+}
